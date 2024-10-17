@@ -1,0 +1,9 @@
+print(f"Quadratic Eqaution \n ")
+
+a = int(input("Insert First Number: "))
+b = int(input("Insert Second Number: "))
+c = int(input("Insert Third Number: "))
+x = int(input("Insert Fourth Number: "))
+q = (a * (x ** 2) + b * x + c)
+
+print(f"The Quadratic equation answer is = {q}")
